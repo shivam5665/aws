@@ -7,7 +7,7 @@ app.use(express.json())
 
 
 app.get("/",(req,res)=>{
-    res.send("Running at server 1")
+    res.send("Running at server 2")
 })
 
 app.listen(4500,()=>{
